@@ -17,6 +17,7 @@ public class CarApplication {
         SpringApplication.run(CarApplication.class, args);
         logger.info("Car app started ! Goto http://localhost:8081/dic_student_name");
     }
+    // bon
 }
 @RestController
 @RequestMapping(value = "/dic_student_name")
